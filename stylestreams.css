@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+body {
+    background-color: white;
+}
+
+.nombre {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #1c8080;
+}
+
+.bg-light {
+    background-color: rgb(255, 255, 255) !important;
+
+}
+
+.cabecera {
+    background-color: #ffb48f;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.frase {
+    justify-content: center;
+    margin: 8px;
+    color: white;
+    display: flex;
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.logo {
+    width: 35px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.n-logo {
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+    color: #ff5254;
+    font-size: 28px;
+}
+
+.n-logo:hover {
+    color: #F47421;
+}
+
+header nav {
+    background-color: white;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    scroll-margin-inline-start: 550px;
+}
+
+div ul li {
+    justify-content: space-between;
+    margin-right: 55px;
+}
+
+.carrusel {
+    background-color: #fff2a9;
+}
+
+.c-textouno {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #F47421
+}
+
+.c-textodos {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: #F47421;
+
+}
+
+.c-textotres {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: gold;
+
+}
+
+.c-parrafouno {
+    color: rgb(219, 166, 22);
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+}
+
+.c-parrafodos {
+    color: rgb(219, 166, 22);
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.c-parrafotres {
+    color: rgb(219, 166, 22);
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.t-bienvenida {
+    background-color: #88D1B9;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.t-bien {
+    justify-content: center;
+    color: white;
+    margin: 35px;
+
+}
+
+.t-bien h1 {
+    justify-content: center;
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.t-bien p {
+    justify-content: center;
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 25px;
+}
+
+
+.btn-outline-success {
+    outline: none !important;
+    box-shadow: none !important;
+    border: #1c8080 1px solid !important;
+    color: #1c8080;
+}
+
+.btn-outline-success:hover {
+    background-color: #88D1B9;
+}
+
+.btn-outline-info:hover {
+    background-color: #88D1B9;
+    color: white;
+}
+
+.btn-outline-info {
+    outline: none !important;
+    box-shadow: none !important;
+    border: #1c8080 1px solid !important;
+    color: #1c8080;
+}
+
+.btn-outline-warning:hover {
+    background-color: gold;
+    color: white;
+
+}
+
+.redes {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 25px;
+
+}
+
+.icon-redes {
+    width: 30px;
+    margin-right: 18px;
+}
+
+.streams {
+    background-color: white;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.iconstream {
+    border-radius: 15%;
+
+}
+
+.streams h2 {
+    justify-content: center;
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 25px;
+    color: #ff5254;
+}
+
+.motiv {
+    background-color:#fff2a9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.gifi {
+    width: 270px;
+    border-radius: 25%;
+}
+.t-motiv {
+
+    width: 30%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.t-motiv h2 {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color:white;
+    text-shadow: 1px 1px goldenrod;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.t-motiv p {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color:white;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 1px 1px goldenrod;
+}
+
+.boton-empren {
+    outline: none !important;
+    box-shadow: none !important;
+    border:#ff5254 1px solid !important;
+    color: #ff5254;
+
+}
+.boton-empren:hover {
+    background-color: #ff5254;
+}
+
+footer {
+    background-color: #ffb48f;
+    color: white;
+    margin: 0;
+}
+
+.f-enlaces ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.f-enlaces ul a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer h3 {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sobremi {
+    background-color: #88D1B9;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.sobremi h2 {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 35px;
+    color: #fff2a9;
+}
+.sobremi p {
+    font-size: 16px;
+    color: white;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sobremi img {
+    width: 550px;
+    margin: 15px;
+}
+
+.historia {
+    background-color: #ffb48f;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+.historia img{
+        width: 500px;
+        margin: 15px;
+}
+.historia h2 {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 35px;
+    color: #fff2a9;
+}
+.historia p {
+    font-size: 16px;
+    color: white;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.soy {
+    background-color:#fff2a9;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+.soy img{
+        width: 500px;
+        margin: 15px;
+}
+.soy h2 {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 35px;
+    color:white;
+    text-shadow: 1px 1px goldenrod;
+}
+.soy p {
+    font-size: 26px;
+    color: white;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-shadow: 1px 1px goldenrod;
+    margin-top: 15px;
+
+}
+
+.gato {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ff5254;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+}
+
